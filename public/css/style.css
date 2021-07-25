@@ -1,6 +1,10 @@
 body{
-    background-color: #EAC926;
+    background-color: white;
     font-family: 'Roboto', sans-serif;
+}
+/*----------------HEADER-----------------*/
+header{
+    background-color: #EAC926
 }
 .cuotas{
     text-align: center;
@@ -20,6 +24,20 @@ body{
 }
 img{
     width: 300px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+/*----------------MAIN-----------------*/
+main{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    display: block;
+    
+}
+.item{
+    background-color: white;
+    margin: 10px;
 }
 p{
     font-size: 12px; 
@@ -29,6 +47,7 @@ h3{
 }
 .description{
     font-size: 16px;
+    box-sizing: border-box;
 }
 .price{
     font-size: 18px;
@@ -36,6 +55,17 @@ h3{
 .productName{
     font-size: 16px;
 }
+/*----------------FOOTER-----------------*/
+footer{
+    text-align: center;
+    color: #666;
+}
+footer i{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #1259c3;
+}
+
 
 
 /* Paleta de colores
