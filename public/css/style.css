@@ -147,7 +147,10 @@
     .description {
         font-size: 16px;
     }
-    
+    .bannerML{
+        margin-top: 173px;
+        width: 100%;
+    }
     main {
         /* border: 1px solid red; */
         width: 90%;
