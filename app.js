@@ -18,6 +18,6 @@ app.get('/login', (req, res) => {
     res.sendFile(path.join(__dirname, './views/login.html'))
 })
 
-app.listen(port, () => {
-    console.log("El servidor se encuentra activo sobre la URL: http://localhost:"+port+" o sobre http://127.0.0.1:"+port)
+app.listen(process.env.PORT || 3030, () => {
+    console.log("El servidor se encuentra activo en el puerto 3000")
 })
